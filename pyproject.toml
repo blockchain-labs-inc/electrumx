@@ -4,13 +4,14 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "e-x"
+version = "0.0.1"
 authors = [
     { name = "The Electrum developers" },
 ]
 description = "Server implementation for the Electrum protocol"
 keywords = ["asyncio", "bitcoin", "electrum", "electrum-server"]
 readme = "README.md"
-license = {'file'="LICENSE"}
+license = {'file'="LICENCE"}
 requires-python = ">=3.10"
 dependencies = [
     "aiorpcx[ws]>=0.23.0,<0.26",
@@ -28,7 +29,6 @@ classifiers = [
     "Topic :: Database",
     "Topic :: Internet",
 ]
-dynamic = ['version']
 
 [project.urls]
 Homepage = "https://github.com/spesmilo/electrumx"
